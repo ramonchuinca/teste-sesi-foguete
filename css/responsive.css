@@ -1,0 +1,226 @@
+/* // Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
+@media (max-width: 575.98px) {
+  .parallax {
+    height: 35vh;
+  }
+  .conteudo{
+    text-align: center;
+    padding-top: unset;
+  }
+  .formulario {
+    width: 320px !important;
+  }
+  #bricks-component-qut8r37tJE4tsViUMzFu5g {
+    width: unset !important;
+  }
+  .astronauta {
+    left: -10px !important;
+  }
+
+  .astronauta img {
+    height: 335px;
+  }
+
+  .info-sesi {
+    left: unset !important;
+  }
+  .txt-sesi p {
+    text-align: center;
+    font-size: 24px;
+  }
+  .txt-sesi h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+  .txt-refer p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 22px;
+  }
+  .txt-sesi-info p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 22px;
+    padding-bottom: unset !important;
+  }
+  .serie {
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+  .btn {
+    padding: 0.375rem 1.0rem !important;
+  }
+  .icones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .sociais a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+}
+
+/* // Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .parallax {
+    height: 70vh;
+  }
+  .conteudo{
+    text-align: center;
+    padding-top: unset;
+  }
+  #bricks-component-qut8r37tJE4tsViUMzFu5g {
+    width: unset !important;
+  }
+  .astronauta {
+    left: -30px !important;
+  }
+
+  .info-sesi {
+    left: unset !important;
+  }
+  .txt-sesi p {
+    text-align: center;
+  }
+  .txt-sesi h1 {
+    text-align: center;
+  }
+  .txt-refer p {
+    text-align: center;
+    padding-top: 15px;
+  }
+  .txt-sesi-info p {
+    text-align: center;
+    padding-top: 15px;
+  }
+  .serie {
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+  .icones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .sociais a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+}
+
+/* // Dispositivos médios (tablets com 768px ou mais) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .parallax {
+    height: 40vh;
+  }
+  .conteudo{
+    text-align: center;
+    padding-top: unset;
+  }
+  #bricks-component-qut8r37tJE4tsViUMzFu5g {
+    width: unset !important;
+  }
+
+  .astronauta {
+    left: unset !important;
+  }
+  .astronauta img {
+    height: 690px;
+  }
+  .info-sesi {
+    left: unset !important;
+  }
+  .txt-sesi p {
+    text-align: center;
+  }
+  .txt-sesi h1 {
+    text-align: center;
+  }
+  .txt-refer p {
+    text-align: center;
+    padding-top: 15px;
+  }
+  .txt-sesi-info p {
+    text-align: center;
+    padding-top: 15px;
+  }
+  .serie {
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+  .icones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .sociais a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+}
+
+/* // Dispositivos large (desktops com 992px ou mais) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .parallax {
+    height: 42vh;
+  }
+  .astronauta {
+    left: -230px;
+  }
+  .info-sesi {
+    left: -15px;
+  }  
+  .txt-sesi p {
+    font-size: 26px;
+    line-height: 1.8rem;
+  }
+  .txt-sesi h1 {
+    font-size: 36px;
+    line-height: 0.6rem;
+  }
+  .txt-refer p {
+    font-size: 22px;
+    padding-top: 10px;
+  }
+  .txt-sesi-info p {
+    padding-top: 230px;
+    font-size: 22px;
+    padding-bottom: 5px;
+  }
+  .serie {
+    font-size: 20px;
+  }
+  .btn {
+    padding: 0.375rem 0.75rem !important;
+  }  
+}
+
+/* // Dispositivos extra large (desktops grandes com 1200px ou mais) */
+@media (min-width: 1200px) {
+  #rd-column-kqigtovh > div {
+    padding-left: 40px !important;
+  }
+  .formulario {
+    padding-left: 20px;
+  }
+}
